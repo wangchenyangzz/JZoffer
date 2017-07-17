@@ -1,7 +1,7 @@
 package com.yang.jzoffer.num3;
 
-import com.example.wangchenyang.algorithms.ListNode;
-import com.example.wangchenyang.algorithms.util.ListUtil;
+import com.yang.jzoffer.ListNode;
+import com.yang.jzoffer.util.ListUtil;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

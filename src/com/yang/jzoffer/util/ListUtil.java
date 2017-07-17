@@ -1,6 +1,5 @@
 package com.yang.jzoffer.util;
-
-import com.example.wangchenyang.algorithms.ListNode;
+import com.yang.jzoffer.ListNode;
 
 import java.util.Scanner;
 
