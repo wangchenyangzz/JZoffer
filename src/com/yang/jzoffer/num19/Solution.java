@@ -20,10 +20,10 @@ public class Solution {
         if (m == 0) return result;
         int layers = (Math.min(m, n) - 1) / 2;
         for (int i = 0; i < layers; i++) {
-            for (int k = i; k < m - i; k++) result.add(array[i][k]);
-            for (int j = i + 1; j < n - i; j++) result.add(array[j][m - i - 1]);
-            for (int k = m - i - 2; (k >= i); k--) result.add(array[n - i - 1][k]);
-            for (int j = n - i - 2; (j > i); j--) result.add(array[j][i]);
+            for (int k = i; k < m - i; k++) result.add(matrix[i][k]);
+            for (int j = i + 1; j < n - i; j++) result.add(matrix[j][m - i - 1]);
+            for (int k = m - i - 2; (k >= i); k--) result.add(matrix[n - i - 1][k]);
+            for (int j = n - i - 2; (j > i); j--) result.add(matrix[j][i]);
         }
         return result;
     }
