@@ -9,7 +9,7 @@ package com.yang.jzoffer.num53;
 但是"12e","1a3.14","1.2.3","+-5"和"12e+4.3"都不是。
  */
 public class Solution {
-    String s=String.valueOf(str);
+//    String s=String.valueOf(str);
     //return s.matches("[+-]?[0-9]*(.[0-9]*)?([eE][+-]?[0-9]+)?");
-    return s.matches("[+-]?[0-9]*(\\.[0-9]*)?([eE][+-]?[0-9]+)?");
+//    return s.matches("[+-]?[0-9]*(\\.[0-9]*)?([eE][+-]?[0-9]+)?");
 }

@@ -11,7 +11,7 @@ public class ListUtil {
     public static void add(ListNode list) {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
-        list.next = new ListNode(num);
+        list = new ListNode(num);
         while (num != 9999) {
             list.next = new ListNode(num);
             list = list.next;
